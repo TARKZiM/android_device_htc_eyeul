@@ -36,7 +36,7 @@
 # 0PFH11000 - Europe/International
 # 0PFH20000 - Asia/Taiwan
 
-TARGET_OTA_ASSERT_DEVICE := eyeul
+TARGET_OTA_ASSERT_DEVICE := htc_eyeul,eyeul,eyetuhl,htc_eyetuhl
 
 # Kernel
 TARGET_KERNEL_CONFIG := eyeul_defconfig
