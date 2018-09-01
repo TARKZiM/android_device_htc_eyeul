@@ -41,6 +41,9 @@ setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT"
 write_headers
 
 write_makefiles "$MY_DIR"/proprietary-files.txt
+echo "ifeq (\$(strip \$(BOARD_NFC_CHIPSET)),pn547)" >> "$ANDROIDMK"
+write_makefiles "$MY_DIR"/proprietary-files-pn547.txt
+echo "endif" >> "$ANDROIDMK"
 
 # Finish
 write_footers
