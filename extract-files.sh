@@ -56,6 +56,14 @@ if [ -z "$SRC" ]; then
     SRC=adb
 fi
 
+function blob_fixup() {
+    case "${1}" in
+    vendor/lib/hw/camera.vendor.msm8974.so)
+        patchelf --replace-needed "libcamera_client.so" "libcamera_client_htc.so" "${2}"
+        ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 

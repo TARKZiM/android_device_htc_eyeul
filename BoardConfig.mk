@@ -51,9 +51,6 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/vendor/bin/mm-qcamera-daemon=23
 USE_DEVICE_SPECIFIC_CAMERA := true
 
-# Includes
-TARGET_SPECIFIC_HEADER_PATH := device/htc/eyeul/include
-
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
