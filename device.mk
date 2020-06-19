@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Keylayouts and Keychars
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/device-keypad.kl:system/usr/keylayout/device-keypad.kl
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl \
