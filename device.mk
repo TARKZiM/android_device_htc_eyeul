@@ -32,6 +32,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.htc.software.market.xml:system/etc/permissions/com.htc.software.market.xml
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.msm8974
+
 # Init
 PRODUCT_PACKAGES += \
     init.target.rc
