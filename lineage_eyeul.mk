@@ -35,4 +35,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=eyeul \
     TARGET_DEVICE=eyeul
 
-BUILD_FINGERPRINT := htc/htc_europe/htc_eyeul:5.0.2/LRX22G/504177.1:user/release-keys
+BUILD_FINGERPRINT := htc/htc_europe/htc_eyeul:6.0.1/MMB29M/716274.1:user/release-keys
