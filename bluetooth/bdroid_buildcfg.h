@@ -20,6 +20,4 @@
 
 #define BTM_DEF_LOCAL_NAME        "HTC Desire Eye"
 
-#define BLUETOOTH_QTI_SW          TRUE
-
 #endif
